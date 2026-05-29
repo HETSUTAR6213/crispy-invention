@@ -460,4 +460,4 @@ if __name__ == "__main__":
     print(f"\n✅ Output folder : {OUTPUT_FOLDER}")
     print(f"✅ HF Model      : {HF_MODEL}")
     print(f"✅ Steps default : {HF_STEPS}  |  Guidance: {HF_GUIDANCE}")
-    app.run(, host="0.0.0.0",debug=True)
+    app.run(host="0.0.0.0",debug=True)
