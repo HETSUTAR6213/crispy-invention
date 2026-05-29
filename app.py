@@ -460,5 +460,4 @@ if __name__ == "__main__":
     print(f"\n✅ Output folder : {OUTPUT_FOLDER}")
     print(f"✅ HF Model      : {HF_MODEL}")
     print(f"✅ Steps default : {HF_STEPS}  |  Guidance: {HF_GUIDANCE}")
-    print(f"✅ Starting Flask on http://localhost:5000\n")
-    app.run(debug=True, host="0.0.0.0", port=5000)
+    app.run(, host="0.0.0.0",debug=True)
